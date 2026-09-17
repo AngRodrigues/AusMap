@@ -204,7 +204,7 @@
         </customproperties>
       </layer-tree-layer>
       <layer-tree-layer
-      name="SRTM 1 Sec"
+      name="SRTM-derived 1 Second Digital Elevation Model"
       source="WCS:https://services.ga.gov.au/gis/services/DEM_SRTM_1Second_2024/MapServer/WCSServer?VERSION=1.0.0&amp;COVERAGE=1"
       legend_exp=""
       expanded="0"
@@ -17826,7 +17826,7 @@ def my_form_open(dialog, layer, feature):
       </wgs84extent>
       <id>DEM_SRTM_1Second_2024_AusMap</id>
       <datasource>WCS:https://services.ga.gov.au/gis/services/DEM_SRTM_1Second_2024/MapServer/WCSServer?VERSION=1.0.0&amp;COVERAGE=1</datasource>
-      <layername>SRTM 1 Sec</layername>
+      <layername>SRTM-derived 1 Second Digital Elevation Model</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],MEMBER["World Geodetic System 1984 (G2296)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
